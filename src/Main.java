@@ -16,6 +16,7 @@ class Schilderij {
             for (Schilderij schilderij : schilderijenaanbod) {
                 verkochteSchilderijen.add(schilderij);
                 schilderijenaanbod.remove(schilderij);
+                System.out.println("Dit is een test");
             }
         }
     }
